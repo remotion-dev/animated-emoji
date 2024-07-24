@@ -37,5 +37,6 @@ export const renderWebm = async ({
     },
     port: 4000,
     scale,
+    pixelFormat: "yuva420p",
   });
 };
