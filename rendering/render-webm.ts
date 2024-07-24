@@ -1,3 +1,5 @@
+import { join } from "node:path";
+import { existsSync } from "node:fs";
 import { renderMedia } from "@remotion/renderer";
 import { VideoConfig } from "remotion";
 import { Icon } from "../src/data";
@@ -14,12 +16,22 @@ export const renderWebm = async ({
   scale: number;
   icon: Icon;
 }) => {
+  const output = join(
+    process.cwd(),
+    "public",
+    `${iconIdentifier(icon)}-${scale}x.webm`
+  );
+
+  if (existsSync(output)) {
+    return;
+  }
+
   await renderMedia({
     serveUrl,
     codec: "vp8",
     imageFormat: "png",
     composition,
-    outputLocation: `public/${iconIdentifier(icon)}-${scale}x.webm`,
+    outputLocation: output,
     onProgress: ({ progress }) => {
       console.log(`${composition.id}: ${(progress * 100).toFixed(2)}%`);
     },
