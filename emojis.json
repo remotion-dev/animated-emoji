@@ -1700,7 +1700,7 @@
     "durationInSeconds": 2.033333333333333
   },
   {
-    "name": "muscle-",
+    "name": "muscle",
     "categories": [
       "Smileys and emotions"
     ],
@@ -1778,7 +1778,7 @@
     "durationInSeconds": 1.4
   },
   {
-    "name": "clap-",
+    "name": "clap",
     "categories": [
       "Smileys and emotions"
     ],
@@ -1838,7 +1838,7 @@
     "durationInSeconds": 0.31666666666666665
   },
   {
-    "name": "thumbs-up-",
+    "name": "thumbs-up",
     "categories": [
       "Smileys and emotions"
     ],
@@ -1904,7 +1904,7 @@
     "durationInSeconds": 2.6333333333333333
   },
   {
-    "name": "thumbs-down-",
+    "name": "thumbs-down",
     "categories": [
       "Smileys and emotions"
     ],
@@ -1964,7 +1964,7 @@
     "durationInSeconds": 1.2
   },
   {
-    "name": "raising-hands-",
+    "name": "raising-hands",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2030,7 +2030,7 @@
     "durationInSeconds": 2
   },
   {
-    "name": "wave-",
+    "name": "wave",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2090,7 +2090,7 @@
     "durationInSeconds": 0.9666666666666667
   },
   {
-    "name": "victory-",
+    "name": "victory",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2162,7 +2162,7 @@
     "durationInSeconds": 1.8
   },
   {
-    "name": "crossed-fingers-",
+    "name": "crossed-fingers",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2222,7 +2222,7 @@
     "durationInSeconds": 1.6666666666666667
   },
   {
-    "name": "index-finger-",
+    "name": "index-finger",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2282,7 +2282,7 @@
     "durationInSeconds": 1.9666666666666666
   },
   {
-    "name": "folded-hands-",
+    "name": "folded-hands",
     "categories": [
       "Smileys and emotions"
     ],
@@ -2378,7 +2378,7 @@
     "durationInSeconds": 1.5
   },
   {
-    "name": "dancer-woman-",
+    "name": "dancer-woman",
     "categories": [
       "People"
     ],

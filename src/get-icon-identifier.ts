@@ -28,14 +28,18 @@ export const iconIdentifier = (icon: Icon) => {
   const lastCodePoint = splittedCodePoint[splittedCodePoint.length - 1];
   const name = codePointName(lastCodePoint);
 
-  const id = (
+  const id = [
     firstTag
       .replace(/:/g, "")
       .trim()
       .replace(/\s/g, "-")
       .replace(/ñ/g, "n")
-      .replace(/!/, "") + (isAmbiguous ? `-${name}` : "")
-  ).toLowerCase();
+      .replace(/!/, ""),
+    isAmbiguous ? name : null,
+  ]
+    .filter(Boolean)
+    .join("-")
+    .toLowerCase();
 
   return id;
 };
