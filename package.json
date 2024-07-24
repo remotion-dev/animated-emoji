@@ -5,10 +5,11 @@
   "repository": {},
   "license": "UNLICENSED",
   "dependencies": {
+    "@remotion/bundler": "4.0.186",
     "@remotion/cli": "4.0.186",
     "@remotion/lottie": "4.0.186",
-    "@remotion/bundler": "4.0.186",
     "@remotion/renderer": "4.0.186",
+    "@types/bun": "^1.1.6",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "4.0.186"
