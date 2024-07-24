@@ -1,54 +1,10 @@
-# Remotion video
+This repository contains prerendered videos of the [Animated Emoji](https://googlefonts.github.io/noto-emoji-animation/) from Google Fonts.
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.gif">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+You can use them with the [`<AnimatedEmoji />`](https://remotion.dev/docs/animated-emoji/animated-emoji) component from [`@remotion/animated-emoji`](https://remotion.dev/docs/animated-emoji).
 
-Welcome to your Remotion project!
-
-## Commands
-
-**Install Dependencies**
-
-```console
-bun install
-```
-
-**Start Preview**
-
-```console
-bun start
-```
-
-**Render video**
-
-```console
-bun run build
-```
-
-**Upgrade Remotion**
-
-```console
-bun run upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
+Copy the files from the `public` folder of this repo to your Remotion project's `public` folder.  
+If you want to host the files somewhere else, use the `calculateSrc` prop of the `<AnimatedEmoji />` component.
 
 ## License
 
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+The Animated Emoji from Google are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
