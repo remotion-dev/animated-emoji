@@ -4,6 +4,7 @@ import { data } from "./data";
 import { LottieAnimationData } from "@remotion/lottie";
 import { iconIdentifier } from "./get-icon-identifier";
 
+console.log("rendering");
 export const RemotionRoot: React.FC = () => {
   return (
     <>
@@ -24,7 +25,9 @@ export const RemotionRoot: React.FC = () => {
               const data = await fetch(
                 `https://fonts.gstatic.com/s/e/notoemoji/latest/${icon.codepoint}/lottie.json`
               );
+
               const json = (await data.json()) as LottieAnimationData;
+
               return {
                 width: json.w,
                 height: json.h,
