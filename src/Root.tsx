@@ -29,7 +29,7 @@ export const RemotionRoot: React.FC = () => {
               const json = (await data.json()) as LottieAnimationData;
 
               return {
-                width: json.w,
+                width: Math.floor(json.w / 2) * 2,
                 height: json.h,
                 fps: json.fr,
                 durationInFrames: json.op,
